@@ -1,0 +1,19 @@
+[general]
+name=Toolbar Manager
+qgisMinimumVersion=3.16
+description=Choose which toolbars are shown and which tools appear on each toolbar.
+about=Opens a dialog listing every main-window toolbar and its tools. Tick/untick toolbars to show or hide them, and tick/untick individual tools to add or remove them from the toolbar (menus are not affected). Choices are saved and re-applied at startup. Supports named profiles, and profiles can be exported to a file and imported on another machine.
+version=1.1
+author=Nikolaos Kokkos
+email=nikolaoskokkos@gmail.com
+category=Plugins
+icon=icon.svg
+experimental=False
+supportsQt6=True
+homepage=https://github.com/nikolaoskokkos/qgis-toolbar-manager
+repository=https://github.com/nikolaoskokkos/qgis-toolbar-manager
+tracker=https://github.com/nikolaoskokkos/qgis-toolbar-manager/issues
+tags=toolbar,toolbars,customization,interface,ui,profiles,settings
+changelog=1.1 - Separate tabs for QGIS and plugin toolbars; export/import settings to a file
+    1.0 - First release
+deprecated=False
